@@ -1,0 +1,15 @@
+@import "../../assets/ColorBar.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color: $baseColor4;
+  img {
+    width: 11vh;
+  }
+}
