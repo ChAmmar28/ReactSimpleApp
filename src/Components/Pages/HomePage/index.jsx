@@ -1,12 +1,12 @@
-import React from "react";
-import CardContainer from "../../CardContainer";
+import React from 'react'
+import CardContainer from '../../CardContainer'
 
-function HomePage({ funct }) {
-  return (
-    <>
-      <CardContainer />
-    </>
-  );
+function HomePage() {
+   return (
+      <>
+         <CardContainer />
+      </>
+   )
 }
 
-export default HomePage;
+export default HomePage

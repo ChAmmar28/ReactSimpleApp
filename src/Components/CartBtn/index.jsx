@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+// import { UseSelector } from 'react-redux'
 
 function CartBtn({ sClass }) {
-  const [state, funct] = useState();
-  return (
-    <NavLink to="/CartPage" className={sClass}>
-      <span>{}</span>| #<span>{}</span>
-    </NavLink>
-  );
+   return (
+      <NavLink to="/CartPage" className={sClass}>
+         <span>{}</span>| #<span>{}</span>
+      </NavLink>
+   )
 }
 
-export default CartBtn;
+export default CartBtn
