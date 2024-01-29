@@ -6,10 +6,13 @@ import Cards from '../../Cards'
 function CartPage() {
    const cartData = useSelector((state) => state.cart.cartList)
    return (
-      <div className={cls.container}>
-         {cartData &&
-            cartData.map((item) => <Cards key={item.id} data={item} />)}
-      </div>
+      <dir>
+         <div className={cls.container}>
+            {cartData &&
+               cartData.map((item) => <Cards key={item.id} data={item} />)}
+         </div>
+         <button></button>
+      </dir>
    )
 }
 
